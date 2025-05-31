@@ -23,7 +23,8 @@ function App() {
 
   const copyPassToClip = useCallback(() => {
     passwordRef.current?.select()
-    alert("Copied to clipboard!")
+    // alert("Copied to clipboard!")
+
     window.navigator.clipboard.writeText(password)
   }, [password])
 
@@ -42,7 +43,7 @@ function App() {
           readOnly
           ref = {passwordRef}
           />
-          <button onClick={copyPassToClip} className='outline-none bg-slate-400 text-black px-3 py-0.5 shrink-0'>Copy</button>
+          <button onClick={copyPassToClip} className='outline-none bg-blue-400 text-black px-3 py-0.5 shrink-0'>Copy</button>
         </div>
         <div className='flex text-sm gap-x-3'>
           <div>

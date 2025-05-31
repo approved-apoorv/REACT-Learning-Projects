@@ -11,7 +11,7 @@ function App() {
       <h1 className='bg-amber-600 bg-contain p-3 mb-4'>Apoorv Baghel</h1>
       <Card username="Apoorv baghel"/>
       <br />
-      <Card />
+      <Card username=""/>
     </>
   )
 }

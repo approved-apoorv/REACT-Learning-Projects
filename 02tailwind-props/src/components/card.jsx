@@ -14,7 +14,7 @@ function Card(props) {
           </span>
           <h2 className="text-xl font-semibold tracking-wide">{props.username || "Your Name"}</h2>
         </div>
-        <p className="text-gray-300">
+        <p className="text-gray-300"> 
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora ipsum soluta
           amet
         </p>
